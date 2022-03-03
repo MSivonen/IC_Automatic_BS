@@ -155,7 +155,6 @@ return
 class MyGui {
 	Width := "550"
 	Height := "275" ;"250"
-
 	__New()
 	{
 		Gui, MyWindow:New
@@ -222,8 +221,9 @@ class MyGui {
 
 	;	Gui, Tab, Log
 		this.Show()
-
 	}
+
+	
 
 	Show() {
 		;check if minimized if so leave it be
@@ -255,7 +255,9 @@ class MyGui {
 		GuiControl, MyWindow:, CurrentLgBS, % CurrentLgBS, w250 h210
 		;this.Show() - removed
 	}
+
 }
+
 
 SaveChamp_Clicked()
 	{
@@ -798,6 +800,8 @@ GearReport() {
 	return
 }
 
+
+
 class SecondCounter {
     __New() {
 			global automTXT
@@ -821,6 +825,7 @@ class SecondCounter {
 		TimeLeft -= 1000
 		;msgbox % timeleft
 		GuiControl,MyWindow:,TimeleftTXT, % floor(TimeLeft/1000)
+		;if (!oMyGUI)
 
 		if(!mod(TimeLeft,120000))
 			Update_Clicked()
