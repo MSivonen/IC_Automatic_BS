@@ -1,5 +1,5 @@
 # IC_Autom_BS
- Automatically ruin your perfect Briv
+ A too to automatically ruin your perfect Briv
 
 Code stolen from IdleCombos with permission. Thank you Eldoen!
 
