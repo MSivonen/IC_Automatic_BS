@@ -215,7 +215,7 @@ class MyGui {
 
 		Gui, MyWindow:Add, Text, x15 y+20+p w110, 58 Briv
 		Gui, MyWindow:Add, Text, x15 y+p w110, 75 Hew Maan
-		Gui, MyWindow:Add, Text, x15 y+20+p vautomTXT w400, % automTXT
+		Gui, MyWindow:Add, Text, x15 y+20+p vautomTXT w300, % automTXT
 		Gui, MyWindow:Add, Text, x15 y+p vtimeleftTXT w150, % timeleftTXT
 
 
